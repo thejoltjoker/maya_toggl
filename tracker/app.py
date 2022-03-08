@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""tracker.py
-Description of tracker.py.
+"""app.py
+Description of app.py.
 """
 import base64
 import json
