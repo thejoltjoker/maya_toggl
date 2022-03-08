@@ -14,7 +14,7 @@ logger.setLevel(logging.INFO)
 
 
 def initializePlugin(obj):
-    from maya_toggl.tracker import menu as mt_menu
+    from maya_toggl import menu as mt_menu
     reload(mt_menu)
     mt_menu.Menu()
     logger.info('Toggl menu loaded')
